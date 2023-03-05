@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".ui.fragment.signup.SignUpFragment">
+
+    <EditText
+        android:id="@+id/edit_phone"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/radio"
+        android:drawableEnd="@drawable/phone"
+        android:inputType="number"
+        android:padding="10dp"
+        android:text="+996773070106"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/edit_email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/radio"
+        android:drawableEnd="@drawable/email"
+        android:hint="10210"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/input_code"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:hint="Подтвердить"
+        android:textColorHint="@color/white"
+        android:textSize="16sp"
+        app:backgroundTint="#D88B02"
+        app:cornerRadius="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_email" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/get_code"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:hint="Получить код"
+        android:textColorHint="@color/white"
+        android:textSize="16sp"
+        app:backgroundTint="#D88B02"
+        app:cornerRadius="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_email" />
+
+    <TextView
+        android:id="@+id/r"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Отправить код"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_code" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

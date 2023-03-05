@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "972905482532",
+    "project_id": "geekuser-ef454",
+    "storage_bucket": "geekuser-ef454.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972905482532:android:7ecf9f49325916920d4bb1",
+        "android_client_info": {
+          "package_name": "com.example.geekuser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "972905482532-8hlb9oev1ckoh5uf1faqqnqmmh9asqu8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxboVADesizZFb91Mik1iBMIaWF53rCvM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "972905482532-8hlb9oev1ckoh5uf1faqqnqmmh9asqu8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
